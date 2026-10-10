@@ -1,0 +1,25 @@
+{
+  "repository_url": "https://github.com/IT-EXPRESS-Bayern/LunarBridge-Camera",
+  "source_commit": "360e4baba7adc793677c1cba1c116cc1dd6999c3",
+  "workflow_run_id": 38090449052,
+  "workflow_url": "https://github.com/IT-EXPRESS-Bayern/LunarBridge-Camera/actions/runs/38090449052",
+  "status": "completed",
+  "conclusion": "success",
+  "local_distinct_tests_passed": 31,
+  "native_target_hardware_tests": 0,
+  "verified_on": "2026-10-11",
+  "scope": "Hosted workflow and exact source commit; no Samsung target test.",
+  "later_documentation_commits_are_separate": true,
+  "target_boot_or_secure_boot_verified": false,
+  "actual_gpu_execution_or_metal_implemented": false,
+  "artifact_metadata": [
+    {
+      "id": 11683589316,
+      "name": "LunarBridge-Camera-Metadata",
+      "bytes": 55107,
+      "sha256": "d181d6b9e98ec5d651578146f8e173f848e3a04ace11f00f445c5dff09efa350",
+      "workflow_run_id": 38090449052,
+      "source_commit": "360e4baba7adc793677c1cba1c116cc1dd6999c3"
+    }
+  ]
+}

@@ -42,3 +42,4 @@ Kamera, Grafik, I2C-Controller und andere Hardware bleiben eigenständige Module
 
 Eigene Beiträge: **GPL-3.0-only**, Copyright IT-EXPRESS Bayern. Externe Referenzen behalten ihre Lizenzen; Linux-, Windows-, Apple- und Intel-Firmwareimplementierungen sind nicht enthalten. Siehe [NOTICE](NOTICE) und [LICENSE](LICENSE).
 
+Der erfolgreiche Online-Prüflauf und sein exakter Quellstand sind in [docs/CI_VALIDATION.json](docs/CI_VALIDATION.json) festgehalten. Spätere Dokumentations-Commits sind davon getrennt; dieser CI-Lauf ist kein Gerätefunktionstest auf dem Samsung.
