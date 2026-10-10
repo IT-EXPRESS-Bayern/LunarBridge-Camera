@@ -1,0 +1,122 @@
+{
+  "review_date": "2026-10-10",
+  "source_implementations_included": false,
+  "pinned_references": [
+    {
+      "repository": "intel/ipu7-drivers",
+      "commit": "495acc90feb09d8008c0a6228fb8bb4c6415ca62",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-drivers/495acc90feb09d8008c0a6228fb8bb4c6415ca62/README.md",
+      "bytes": 2682,
+      "sha256": "bf4117df7bbb5f253f54a19b84f10fba6cc83029df21540673a42550f016e595",
+      "upstream_license": "Repository documentation; implementation license reviewed per file"
+    },
+    {
+      "repository": "intel/ipu7-drivers",
+      "commit": "495acc90feb09d8008c0a6228fb8bb4c6415ca62",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-drivers/495acc90feb09d8008c0a6228fb8bb4c6415ca62/LICENSE",
+      "bytes": 18012,
+      "sha256": "0d5bf346df9e635a29dcdddf832dc5b002ca6cdc1c5c9c6c567d2a61bb0c5c15",
+      "upstream_license": "GPL-2.0 markings; not copied into GPL-3.0-only own code"
+    },
+    {
+      "repository": "intel/ipu7-drivers",
+      "commit": "495acc90feb09d8008c0a6228fb8bb4c6415ca62",
+      "path": "drivers/media/pci/intel/ipu7/ipu7.c",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-drivers/495acc90feb09d8008c0a6228fb8bb4c6415ca62/drivers/media/pci/intel/ipu7/ipu7.c",
+      "bytes": 64536,
+      "sha256": "01a78839211901924a7a248df1365c3978b15f061b85f6f90eab9867935653fc",
+      "upstream_license": "GPL-2.0 markings; not copied into GPL-3.0-only own code"
+    },
+    {
+      "repository": "intel/ipu7-drivers",
+      "commit": "495acc90feb09d8008c0a6228fb8bb4c6415ca62",
+      "path": "drivers/media/pci/intel/ipu7/ipu7.h",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-drivers/495acc90feb09d8008c0a6228fb8bb4c6415ca62/drivers/media/pci/intel/ipu7/ipu7.h",
+      "bytes": 6336,
+      "sha256": "04dab34bb5c89912a6591fb6bcf65aad199887d275457feed08e8dc337a4e3e5",
+      "upstream_license": "GPL-2.0 markings; not copied into GPL-3.0-only own code"
+    },
+    {
+      "repository": "intel/ipu6-drivers",
+      "commit": "71bddb5158fb7f0bd244ad7aa6b2efab024531a7",
+      "path": "drivers/media/i2c/ov02e10.c",
+      "url": "https://raw.githubusercontent.com/intel/ipu6-drivers/71bddb5158fb7f0bd244ad7aa6b2efab024531a7/drivers/media/i2c/ov02e10.c",
+      "bytes": 32064,
+      "sha256": "8f000fd2c210794374cfbe33fe1d9e4aa5ec78025074a68465c1ff511b5cd082",
+      "upstream_license": "GPL-2.0 markings; not copied into GPL-3.0-only own code"
+    },
+    {
+      "repository": "intel/ipu7-camera-bins",
+      "commit": "adf55525ab9d370828723b1ff8bee76ed7a492e8",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-camera-bins/adf55525ab9d370828723b1ff8bee76ed7a492e8/README.md",
+      "bytes": 1284,
+      "sha256": "3d5f99575a16ec047d227422b5d6f873cd0cf94645c7ace61f48406da409e938",
+      "upstream_license": "Intel binary redistribution terms; see pinned LICENSE"
+    },
+    {
+      "repository": "intel/ipu7-camera-bins",
+      "commit": "adf55525ab9d370828723b1ff8bee76ed7a492e8",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-camera-bins/adf55525ab9d370828723b1ff8bee76ed7a492e8/LICENSE",
+      "bytes": 1847,
+      "sha256": "be486d812f054cf98f85ab8196ab1321ee54d7b29a71241be0a3e96c7a19940f",
+      "upstream_license": "Intel binary redistribution terms; see pinned LICENSE"
+    },
+    {
+      "repository": "intel/ipu7-camera-hal",
+      "commit": "11d8aff0d1ddc16aef56c8e6518e08e2f936a95b",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-camera-hal/11d8aff0d1ddc16aef56c8e6518e08e2f936a95b/README.md",
+      "bytes": 1192,
+      "sha256": "aea521521982afa41f2c76e0057d90c32c4fe0afeb57835d48471026cabc1702",
+      "upstream_license": "Apache-2.0; individual dependencies need separate review"
+    },
+    {
+      "repository": "intel/ipu7-camera-hal",
+      "commit": "11d8aff0d1ddc16aef56c8e6518e08e2f936a95b",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/intel/ipu7-camera-hal/11d8aff0d1ddc16aef56c8e6518e08e2f936a95b/LICENSE",
+      "bytes": 10232,
+      "sha256": "e6ec6ca1b0b0691a46a2f68ee7774ba38ae9e5e3a5833327fd7273b139d01e54",
+      "upstream_license": "Apache-2.0; individual dependencies need separate review"
+    },
+    {
+      "repository": "torvalds/linux",
+      "commit": "e5f0a698b34ed76002dc5cff3804a61c80233a7a",
+      "path": "drivers/media/pci/intel/ipu-bridge.c",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e5f0a698b34ed76002dc5cff3804a61c80233a7a/drivers/media/pci/intel/ipu-bridge.c",
+      "bytes": 23976,
+      "sha256": "a63b6d7c704d5ffcdc0acc206ef6c728583001e7e15891ee067c26d93a4cdd38",
+      "upstream_license": "GPL-2.0 markings; not copied into GPL-3.0-only own code"
+    },
+    {
+      "repository": "torvalds/linux",
+      "commit": "e5f0a698b34ed76002dc5cff3804a61c80233a7a",
+      "path": "drivers/media/i2c/ov02e10.c",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e5f0a698b34ed76002dc5cff3804a61c80233a7a/drivers/media/i2c/ov02e10.c",
+      "bytes": 24765,
+      "sha256": "236e3fa27354bcad26f0accf8bf093051800f120cc62e8933a691bbaea3a8925",
+      "upstream_license": "GPL-2.0 markings; not copied into GPL-3.0-only own code"
+    }
+  ],
+  "documentation_references": [
+    {
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/videos/play/wwdc2022/10022/",
+      "purpose": "CMIO camera extension and built-in UVC extension"
+    },
+    {
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/stream/usb-video-class-driver-overview",
+      "purpose": "Inbox Usbvideo.sys and UVC transport"
+    },
+    {
+      "publisher": "Samsung",
+      "url": "https://www.samsung.com/de/business/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-5-16gb-512gb-np960xha-kg3de/",
+      "purpose": "Exact product model and 2.0 MP camera specification"
+    }
+  ]
+}

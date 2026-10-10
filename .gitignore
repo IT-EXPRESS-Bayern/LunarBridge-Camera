@@ -1,0 +1,13 @@
+**/TASKS.md
+**/tasks.md
+**/PLAN.md
+**/plan.md
+**/*-private.json
+__pycache__/
+*.pyc
+.DS_Store
+build/
+reports/
+references/
+*.zip
+

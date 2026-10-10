@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: GPL-3.0-only
+name: Camera metadata checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-observer:
+    runs-on: macos-26-intel
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
+        with:
+          persist-credentials: false
+      - name: Test metadata qualification
+        run: python3 -m unittest discover -s tests -v
+      - name: Compile read-only IORegistry observer
+        run: |
+          mkdir -p build reports
+          swiftc -O -warnings-as-errors tools/camera_probe.swift -framework IOKit -o build/lb-camera-probe
+          build/lb-camera-probe > reports/runner-capture.json
+          python3 tools/camera_profile.py reports/runner-capture.json --output reports/runner-qualification.json
+      - name: Package observer and corresponding source
+        run: python3 tools/package.py --binary build/lb-camera-probe --output build/LunarBridge-Camera-Metadata.zip
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: LunarBridge-Camera-Metadata
+          path: build/LunarBridge-Camera-Metadata.zip
+          if-no-files-found: error

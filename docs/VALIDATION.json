@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "validation_date": "2026-10-11",
+  "local_platform": "Windows",
+  "python": "3.12.14",
+  "tests": {
+    "run": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "powershell_syntax": "passed",
+  "real_windows_pnp_capture": {
+    "devices": 5,
+    "target_identity_observed": true,
+    "windows_driver_binding_observed": true,
+    "collection_errors": 0,
+    "frames_collected": 0,
+    "hardware_mutations": 0
+  },
+  "native_observer": {
+    "macos_compile": "pending_ci",
+    "galaxy_book_execution": "not_run",
+    "native_camera_capture_verified": false
+  },
+  "reference_files_verified": 11,
+  "package_tests": "synthetic Mach-O metadata only; real executable package requires native CI build",
+  "kernel_sensor_driver": "unimplemented",
+  "kernel_ipu7_driver": "unimplemented",
+  "firmware": "not_loaded_or_redistributed",
+  "uefi_secure_boot": "not_changed_or_verified_by_camera_module"
+}

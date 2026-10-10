@@ -1,0 +1,10 @@
+LunarBridge-Camera
+Copyright (C) 2026 IT-EXPRESS Bayern
+
+Original project code is licensed under GPL-3.0-only; see LICENSE.
+No Intel or Microsoft binary driver, firmware, sensor initialization table,
+Linux driver implementation, or Apple proprietary driver is included.
+The source references in docs/REFERENCES.json keep their upstream licenses.
+Linux GPL-2.0-only sensor/IPU implementations are references for review;
+they are not silently relicensed as GPL-3.0-only or linked into this module.
+
